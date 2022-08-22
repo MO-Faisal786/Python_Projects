@@ -82,7 +82,6 @@ class Snake:
 
 class Game:
     def __init__(self):
-        os.environ['SDL_VIDEO_CENTERED'] = '1'
         pygame.init()
         pygame.display.set_caption("Codebasics Snake And Apple Game")
         self.surface = pygame.display.set_mode((1000,800))
